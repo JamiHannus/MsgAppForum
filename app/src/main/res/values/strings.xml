@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MsgAppForum</string>
+    <string name="enter_message_here">enter message here</string>
 </resources>

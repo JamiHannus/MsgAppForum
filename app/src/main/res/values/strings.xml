@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">MsgAppForum</string>
-    <string name="enter_message_here">enter message here</string>
+    <string name="enter_message_here">Enter message here</string>
+    <string name="settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="logout">logout</string>
+    <string name="current_user">Current user</string>
 </resources>

@@ -1,6 +1,7 @@
 package fi.oamk.msgappforum
 
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
@@ -28,7 +29,7 @@ class Settings: AppCompatActivity() {
         onBackPressed()
         return true
     }
-    fun signOut() {
+    fun signOut(view: View) {
         FirebaseAuth.getInstance().signOut()
         tvEmail.text = ""
     }
